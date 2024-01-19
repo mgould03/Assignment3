@@ -13,7 +13,7 @@ public class Assignment3 {
         System.out.println("Or input '0' to close the program.");
     
         int choice = scanner.nextInt();
-        while (choice > 4 && choice < 0) {
+        while (choice > 4 || choice < 0) {
            System.out.println("Not a choice, please try again.");
            choice =scanner.nextInt(); 
         }
